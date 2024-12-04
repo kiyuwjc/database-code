@@ -3,8 +3,8 @@
 
 （1）运行三次cache_server.py文件，分别在三个终端监听9527、9528、9529三个端口
 
-![img](file:///C:/Users/kiyuw/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
- （2）测试运行情况。启动新的终端，执行./sdcs-test.sh 3 。成功运行并全部测试通过，测试时间为91.380秒
+![image-20241204163835891](images/README/image-20241204163835891.png)
+ （2)测试运行情况。启动新的终端，执行./sdcs-test.sh 3 。成功运行并全部测试通过，测试时间为91.380秒
 
 **第二步：构建和启动** **Docker** **容器**
 
@@ -30,21 +30,7 @@ docker-compose up -d
 
 确认端口映射：确保每个缓存节点的端口映射正确（9527、9528、9529）。
 
- 
-
- 
-
- 
-
-|      |                                                              |
-| ---- | ------------------------------------------------------------ |
-|      | ![img](file:///C:/Users/kiyuw/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png) |
-
-
-
-
-
- 
+ ![image-20241204163930318](images/README/image-20241204163930318.png)
 
 **第三步：运行测试脚本**
 
@@ -52,11 +38,7 @@ docker-compose up -d
 
 ./sdcs-test.sh 3
 
- 
-
-|      |                                                              |
-| ---- | ------------------------------------------------------------ |
-|      | ![img](file:///C:/Users/kiyuw/AppData/Local/Temp/msohtmlclip1/01/clip_image007.jpg) |
+ ![image-20241204163957522](images/README/image-20241204163957522.png)
 
 
 得到测试结果，测试全部通过，时间为53.064s
